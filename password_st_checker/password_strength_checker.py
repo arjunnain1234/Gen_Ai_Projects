@@ -1,6 +1,6 @@
 """
 =====================================================================
- Password Strength Checker  —  Cybersecurity Roadmap: Project 1 of 5
+ Password Strength Checker
 =====================================================================
 Roadmap: Password Strength Checker -> File Hash/Integrity Checker ->
          Port Scanner -> Packet Sniffer -> Password Manager
@@ -10,6 +10,7 @@ into ITS OWN input box, and it scores that password live as you type.
 Nothing is logged, stored, or sent anywhere.
 
 Why this design, and not "detect passwords anywhere on my system"?
+
 A tool that reads what you type into OTHER apps (browsers, email,
 banking apps, the OS login screen, etc.) has to be built with the
 same technique as a keylogger: a global keyboard hook that captures
@@ -46,7 +47,7 @@ COMMON_PASSWORDS = {
     "123456", "password", "123456789", "12345678", "12345", "1234567",
     "qwerty", "abc123", "111111", "123123", "letmein", "welcome",
     "admin", "iloveyou", "monkey", "dragon", "football", "password1",
-    "qwerty123", "1q2w3e4r", "sunshine", "master", "shadow", "superman",
+    "qwerty123", "1q2w3e4r", "sunshine", "master", "T&f(t@)pL", "shadow", "superman",
 }
 
 KEYBOARD_ROWS = ["qwertyuiop", "asdfghjkl", "zxcvbnm", "1234567890"]
