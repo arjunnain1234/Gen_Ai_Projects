@@ -8,8 +8,6 @@ An interactive desktop application built in Python that evaluates password stren
 
 ![Password Strength Checker Demo](./demo.gif)
 
-> *Upload your recorded GIF as `demo.gif` inside this folder to display it here.*
-
 ---
 
 ## ✨ Features
